@@ -2,8 +2,8 @@ import Toast from "./Toast.js"
 
 document.querySelector("button").addEventListener("click", () => {
   const toast = new Toast({
-    text: "Hello",
-    position: "top-right",
+    text: " Gud Job ",
+    position: "top-center",
     pauseOnHover: true,
     pauseOnFocusLoss: true,
   })
